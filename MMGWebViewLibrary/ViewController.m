@@ -22,11 +22,6 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 - (IBAction)btnPressed:(id)sender {
     secondView=[self.storyboard instantiateViewControllerWithIdentifier:@"secondViewController"];
     [[MMGWebLibrary getInstance] setUrlString:@"http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIWebView_Class/UIWebView_Class.pdf"];
