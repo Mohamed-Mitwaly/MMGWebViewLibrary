@@ -21,6 +21,9 @@
 		F012FA5C197D125F0067319A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012FA3E197D125F0067319A /* UIKit.framework */; };
 		F012FA64197D125F0067319A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F012FA62197D125F0067319A /* InfoPlist.strings */; };
 		F012FA66197D125F0067319A /* MMGWebViewLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F012FA65197D125F0067319A /* MMGWebViewLibraryTests.m */; };
+		F012FA74197D12720067319A /* MMGWebLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F012FA71197D12720067319A /* MMGWebLibrary.m */; };
+		F012FA75197D12720067319A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F012FA73197D12720067319A /* SVProgressHUD.m */; };
+		F012FA78197D12E70067319A /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F012FA77197D12E70067319A /* secondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		F012FA61197D125F0067319A /* MMGWebViewLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMGWebViewLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		F012FA63197D125F0067319A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F012FA65197D125F0067319A /* MMGWebViewLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMGWebViewLibraryTests.m; sourceTree = "<group>"; };
+		F012FA70197D12720067319A /* MMGWebLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGWebLibrary.h; sourceTree = "<group>"; };
+		F012FA71197D12720067319A /* MMGWebLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGWebLibrary.m; sourceTree = "<group>"; };
+		F012FA72197D12720067319A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		F012FA73197D12720067319A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		F012FA76197D12E70067319A /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		F012FA77197D12E70067319A /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 		F012FA2E197D125F0067319A = {
 			isa = PBXGroup;
 			children = (
+				F012FA6F197D12720067319A /* MMGWebLibrary */,
 				F012FA40197D125F0067319A /* MMGWebViewLibrary */,
 				F012FA5F197D125F0067319A /* MMGWebViewLibraryTests */,
 				F012FA39197D125F0067319A /* Frameworks */,
@@ -112,6 +122,8 @@
 		F012FA40197D125F0067319A /* MMGWebViewLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				F012FA76197D12E70067319A /* secondViewController.h */,
+				F012FA77197D12E70067319A /* secondViewController.m */,
 				F012FA49197D125F0067319A /* AppDelegate.h */,
 				F012FA4A197D125F0067319A /* AppDelegate.m */,
 				F012FA4C197D125F0067319A /* Main.storyboard */,
@@ -150,6 +162,17 @@
 				F012FA62197D125F0067319A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F012FA6F197D12720067319A /* MMGWebLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F012FA70197D12720067319A /* MMGWebLibrary.h */,
+				F012FA71197D12720067319A /* MMGWebLibrary.m */,
+				F012FA72197D12720067319A /* SVProgressHUD.h */,
+				F012FA73197D12720067319A /* SVProgressHUD.m */,
+			);
+			path = MMGWebLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +274,9 @@
 			files = (
 				F012FA51197D125F0067319A /* ViewController.m in Sources */,
 				F012FA4B197D125F0067319A /* AppDelegate.m in Sources */,
+				F012FA75197D12720067319A /* SVProgressHUD.m in Sources */,
+				F012FA74197D12720067319A /* MMGWebLibrary.m in Sources */,
+				F012FA78197D12E70067319A /* secondViewController.m in Sources */,
 				F012FA47197D125F0067319A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

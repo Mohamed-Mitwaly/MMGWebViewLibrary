@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMGWebLibrary.h"
 
 @interface ViewController : UIViewController
 
